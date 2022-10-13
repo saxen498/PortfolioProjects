@@ -1,3 +1,4 @@
+--CovidDeaths & CovidVaccinations
 select location,date,total_cases,new_cases,total_deaths,population
 from CovidDeath$
 where continent is not NULL
